@@ -1,3 +1,6 @@
+// for alert
+alert("Hi! This site is still in progress. Some features are not yet functional, but you may proceed if you wish.");
+
 // for api count
 function cb(response) {
     document.getElementById('visits').innerText = response.value;
