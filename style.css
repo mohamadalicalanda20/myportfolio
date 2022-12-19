@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("background-image.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container-lg{
+    height:100%;
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(33,36,41,0.5);
+    border-radius: 10px;
+}
+.image-el{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 50px;
+    margin-right: 10px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100%;
+    background: #212429;
+}
+.icons{
+    font-size: 2rem;
+    color: #dfdfda;
+}
+.icon-el{
+    display: flex;
+}
+.visit-el{
+    display: flex;
+    justify-content: end;
+}
